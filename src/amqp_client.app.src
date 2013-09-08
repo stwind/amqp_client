@@ -9,7 +9,6 @@
         kernel,
         stdlib
       ]},
-    {mod, { amqp_client_app, []}},
     {registered,[amqp_sup]},
     {mod,{amqp_client,[]}},
     {env, []}
